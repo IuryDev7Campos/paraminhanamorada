@@ -1,0 +1,200 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebee; /* Rosa bem clarinho */
+    color: #c2185b; /* Rosa mais forte */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff8e1; /* Amarelo bem clarinho */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e91e63; /* Rosa choque */
+}
+
+h1 {
+    font-size: 3em;
+    color: #e91e63; /* Rosa choque */
+    margin-bottom: 5px;
+    font-weight: 700; /* Deixa o título mais destacado */
+}
+
+.subtitle {
+    font-style: italic;
+    color: #ad1457; /* Rosa escuro */
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heart-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music-snippet {
+    background-color: #fce4ec; /* Rosa bem clarinho */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.music-snippet h2 {
+    color: #d81b60; /* Rosa mais forte */
+    margin-top: 0;
+}
+
+.music-snippet .lyric {
+    font-style: italic;
+    color: #880e4f; /* Rosa bem escuro */
+    margin-bottom: 5px;
+}
+
+.music-snippet .song-title {
+    text-align: right;
+    font-size: 0.9em;
+    color: #880e4f; /* Rosa bem escuro */
+}
+
+.poem {
+    background-color: #fff3e0; /* Laranja bem clarinho */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.poem h2 {
+    color: #d84315; /* Laranja mais forte */
+    margin-top: 0;
+}
+
+.poem p {
+    margin-bottom: 10px;
+}
+
+.author {
+    text-align: right;
+    font-style: italic;
+    color: #bf360c; /* Laranja escuro */
+}
+
+.reasons {
+    margin-bottom: 30px;
+}
+
+.reasons h2 {
+    color: #d81b60; /* Rosa mais forte */
+}
+
+.reasons ol {
+    padding-left: 20px;
+}
+
+.reasons li {
+    margin-bottom: 8px;
+}
+
+.easter-egg {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.easter-egg h2 {
+    color: #e91e63; /* Rosa choque */
+}
+
+#easter-egg-button,
+#vampire-diaries-button,
+#vampire-ability-button,
+#secret-button {
+    background-color: #e91e63; /* Rosa choque */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+#easter-egg-button:hover,
+#vampire-diaries-button:hover,
+#vampire-ability-button:hover,
+#secret-button:hover {
+    background-color: #c2185b; /* Rosa mais forte */
+}
+
+#easter-egg-message,
+#vampire-diaries-message,
+#vampire-ability-message,
+#secret-message {
+    margin-top: 15px;
+    font-style: italic;
+    color: #ad1457; /* Rosa escuro */
+}
+
+.hidden {
+    display: none;
+}
+
+.iphone-interaction {
+    text-align: center;
+}
+
+.iphone-interaction h2 {
+    color: #d81b60; /* Rosa mais forte */
+}
+
+.phone-screen {
+    width: 150px;
+    height: 250px;
+    background-color: #f8bbd0; /* Rosa bem clarinho */
+    border-radius: 20px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.kiss-mark {
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+    50% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #e91e63; /* Rosa choque */
+}
+
+.copyright {
+    font-size: 0.8em;
+    color: #ad1457; /* Rosa escuro */
+}
